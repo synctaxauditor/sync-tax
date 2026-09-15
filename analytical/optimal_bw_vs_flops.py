@@ -16,9 +16,9 @@ COLORS2HEX = {
 
 WORKLOAD = "n8-fsdp-tp-llama70b"
 ARCHS = ["h200"]
-COMBO_DATA_FP = "<COMBO_DATA_FP>" # e.g., "../validation-data/agg_combo_data_gumbel.pkl"
-COMBO_DATA_FP_GENERAL = "<COMBO_DATA_FP_GENERAL>" # e.g., "../validation-data/agg_combo_data_general.pkl"
-PATH_TRACE_TEMPLATE = "<PATH_TRACE_TEMPLATE>" # e.g., "../validation-data/path-traces/{workload}-{arch}_v4.pkl"
+COMBO_DATA_FP = "<COMBO_DATA_FP>" # e.g., "../<DATA_PATH>/agg_combo_data_gumbel.pkl"
+COMBO_DATA_FP_GENERAL = "<COMBO_DATA_FP_GENERAL>" # e.g., "../<DATA_PATH>/agg_combo_data_general.pkl"
+PATH_TRACE_TEMPLATE = "<PATH_TRACE_TEMPLATE>" # e.g., "../<DATA_PATH>/{workload}-{arch}.pkl"
 TRACE_SAMPLE_TEMPLATE = "<TRACE_SAMPLE_TEMPLATE>"
 IGNORE = {"CPU", "MemEffAttention", "sdpa"}
 
